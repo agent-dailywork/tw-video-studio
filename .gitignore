@@ -1,0 +1,20 @@
+# keys never go in git
+.env
+.env.*
+# renders and work files
+examples/out/
+work/
+out/
+*.mov
+renders/
+.hyperframes/
+stills/
+node_modules/
+.DS_Store
+*-silent.mp4
+# python
+__pycache__/
+*.pyc
+# 個人素材預設不進 git（公開 repo 時保護你的肖像）；要一起備份就刪掉下面兩行
+assets/me/*
+!assets/me/README.md

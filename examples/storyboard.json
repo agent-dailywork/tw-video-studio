@@ -1,0 +1,35 @@
+{
+  "title": "用我的照片做產品介紹",
+  "format": "16:9",
+  "seconds": 12,
+  "shots": [
+    {
+      "time": "0.0-3.0",
+      "graphic": "名字以遮罩滑入的方式落定；背後的點陣逐漸搭建起來",
+      "asset": {
+        "kind": "code"
+      }
+    },
+    {
+      "time": "3.0-8.0",
+      "graphic": "照片放在右側一張直式長卡片裡；卡片緩慢推近；標籤在左側落定",
+      "asset": {
+        "kind": "generate",
+        "provider": "fal",
+        "endpoint": "<用 fal 的 recommend_model 選定後填入>",
+        "from": "media/photo.jpg",
+        "prompt": "slow push in, the person looks up from the laptop and smiles, soft window light, camera steady",
+        "duration": 5,
+        "estimate_usd": null
+      }
+    },
+    {
+      "time": "8.0-12.0",
+      "graphic": "三個功能標籤依次堆疊進來；照片卡片縮小到角落",
+      "asset": {
+        "kind": "user_photo",
+        "path": "media/photo.jpg"
+      }
+    }
+  ]
+}
