@@ -26,7 +26,7 @@
 ## 安裝
 
 1. 下載到 skill 資料夾（資料夾名稱必須是 `tw-video-studio`）：
-   `git clone <你的 repo 網址> ~/.claude/skills/tw-video-studio`
+   `git clone https://github.com/agent-dailywork/tw-video-studio.git ~/.claude/skills/tw-video-studio`
    確認存在 `~/.claude/skills/tw-video-studio/SKILL.md`。
 2. 另外需要 Node 22 以上（https://nodejs.org）和 ffmpeg（`brew install ffmpeg`）。Claude 會替你檢查，缺什麼就給你一行指令補上。
 3. 打開 Claude Code，說：**幫我做個動態圖形**（或 make me a motion graphic）。
